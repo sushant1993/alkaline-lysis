@@ -1,0 +1,36 @@
+<html>
+	<body>
+		<link rel="stylesheet" href="../static/bootstrap.min.css">
+		<div class="container">
+		  <h2>Alkaline Lysis</h2>
+		  <form  action="http://localhost:5000/submit"  method="POST">
+		    <div >
+		      <label for="voc">Volume of the culture (in ml):</label>
+		      <input type="text" class="form-control" name="voc" placeholder="Enter Volume of Culture (in ml)">
+	      </div>
+	      <br>
+		    <div >
+		      <label for="buff1">Buffer 1 (in ml):</label>
+		      <input type="text" class="form-control" name="buff1" placeholder="Value">
+		    </div>
+		    <br>
+		    <div >
+		      <label for="buff2">Buffer 2 (in ml):</label>
+		      <input type="text" class="form-control" name="buff2" placeholder="Value">
+		    </div>
+	      <br>
+		    <div >
+		      <label for="buff3">Buffer 3 (in ml):</label>
+		      <input type="text" class="form-control" name="buff3" placeholder="Value">
+		    </div>
+		    <br>
+		    <div >
+		      <label for="vte">Volume of T.E (in ml):</label>
+		      <input type="text" class="form-control" name="vte" placeholder="Value">
+		    </div>
+		    <br>
+		    <button type="submit" class="btn btn-default">Submit</button>
+		  </form>
+		</div>
+	</body>
+</html>
